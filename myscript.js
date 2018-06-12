@@ -16,4 +16,34 @@ let getSecondName = (fullName) => {return fullName.split(' ', 1) }
 
 console.log(getSecondName('Billy Blanks'));
 
-let newfunc = (x , y) =>  {return x ^ y, x * y};
+
+let newfunction = (x,y) =>{
+    let exponent = (x^y)
+    let product = (x*y)
+    
+    console.log(`The exponent total is ${exponent}. The product is ${product}`);
+}
+
+  
+newfunction(5,4);
+
+let person = (name , city , favfood) =>{
+    console.log(...person1);
+}
+let person1 = [ "Joe",  "Kansas City" ,  "Salad"];
+person();
+
+let myname = "Bill";
+
+
+let lastfun = (randnumbers) => {
+   console.log(...xyz);
+}
+
+let xyz = [ 3, 2 ,1 ];
+lastfun();
+
+for(let p = 1; p < xyz.length ; p++){
+
+console.log(...xyz);
+}
